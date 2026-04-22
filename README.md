@@ -1,4 +1,4 @@
-<h1> Portfolio </h1>
+<h1> Portfolio - Cultivating Growth </h1>
 <h2>Collage and Course</h2>
 <p> Bellevue University: WEB425 Angular with TypeScript </p>
 
