@@ -1,13 +1,50 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [RouterLink, RouterOutlet],
+  template: `
+  <div class="wrapper">
+    <header class="banner">
+    </header>
+
+    <main class="main-content">
+
+    <nav class="navbar">
+      <ul>
+        <li><a routerLink="/home">Home</a></li>
+        <li><a routerLink="/about">About</a></li>
+        <li><a routerLink="/resume">Resume</a></li>
+        <li><a routerLink="/projects">Projects</a></li>
+        <li><a routerLink="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="content">
+      </router-outlet>
+    </section>
+    </main>
+
+    <footer class="footer">
+    <nav class="footer-nav">
+      <a routerLink="/home">Home</a> |
+      <a routerLink="/about">About</a> |
+      <a routerLink="/resume">Resume</a> |
+      <a routerLink="/projects">Projects</a> |
+      <a routerLink="/contact">Contact</a>
+    </nav>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+  </div>
+`,
+
+styles: [
+  `
+  `
+]
 })
 export class AppComponent {
-  title = 'portfolio';
 }
