@@ -23,8 +23,9 @@ body {
 
 /* ===== NAVIGATION BAR ===== */
 .navbar {
-  background-color: #2c3e50;
+  background-color: #368369;
   padding: 1rem 0;
+  border-radius: 10px 10px 10px 10px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -50,14 +51,12 @@ body {
 
 .navbar a:hover {
   color: #3498db;
-  border-bottom: 2px solid #3498db;
   transition: all 0.3s ease;
 }
 
 /* ===== HEADER/BANNER ===== */
 .banner {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 2rem;
+  background: white;
   text-align: center;
 }
 
@@ -70,120 +69,9 @@ body {
   padding: 2rem;
 }
 
-/* ===== TITLE (H1) ===== */
-h1 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 2.5rem;
-  color: #2c3e50;
-  text-align: center;
-  margin: 2rem 0 1rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-}
-
-/* ===== PROFILE IMAGE SECTION ===== */
-.profile-image {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.profile-image img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid #667eea;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.profile-image img:hover {
-  transform: scale(1.05);
-}
-
-/* ===== INFO SECTION (Bucket List, Aspirations, Brief Info) ===== */
-.info-section {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 2rem;
-  margin: 2rem 0;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.info-section h2 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.8rem;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  border-bottom: 3px solid #667eea;
-  padding-bottom: 0.5rem;
-}
-
-.info-section p {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 1rem;
-  line-height: 1.8;
-}
-
-.info-section ul {
-  list-style-position: inside;
-  margin-left: 1rem;
-}
-
-.info-section li {
-  margin-bottom: 0.8rem;
-  color: #555;
-}
-
-/* ===== SOCIAL MEDIA LINKS ===== */
-.social-media {
-  text-align: center;
-  margin: 2rem 0;
-  padding: 2rem;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.social-media h3 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.5rem;
-  color: #2c3e50;
-  margin-bottom: 1.5rem;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  background-color: #667eea;
-  color: #fff;
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: 1.5rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-.social-links a:hover {
-  background-color: #764ba2;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
 /* ===== FOOTER ===== */
 .footer {
-  background-color: #2c3e50;
+  background-color: #368369;
   color: #ecf0f1;
   text-align: center;
   padding: 2rem;
@@ -205,63 +93,4 @@ h1 {
   color: #2980b9;
   text-decoration: underline;
 }
-
-/* ===== RESPONSIVE DESIGN ===== */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  .navbar ul {
-    gap: 1rem;
-  }
-
-  .navbar a {
-    font-size: 0.9rem;
-    padding: 0.5rem 0.75rem;
-  }
-
-  .profile-image img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .info-section {
-    padding: 1.5rem;
-  }
-
-  .main-content {
-    padding: 1rem;
-  }
-
-  .social-links {
-    gap: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .profile-image img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .info-section h2 {
-    font-size: 1.4rem;
-  }
-
-  .social-links a {
-    width: 45px;
-    height: 45px;
-  }
-}
-
 
