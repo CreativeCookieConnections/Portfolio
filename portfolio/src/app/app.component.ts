@@ -23,7 +23,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     </nav>
 
     <section class="content">
-      </router-outlet>
+      <router-outlet></router-outlet>
     </section>
     </main>
 
