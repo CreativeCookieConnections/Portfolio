@@ -12,22 +12,6 @@ import { Component } from '@angular/core';
   <img src="assets/profileImage.png" alt="Profile Image of Aisha Keller in the shape of a circle with flower border" />
 </div>
 
-<div class="info-section">
-  <h2>About Me</h2>
-  <p>Hello, I'm Aisha Keller!</p>
-  <p>I am a passionate software developer with a love for creating colorful and engaging web applications. With a background in Web Development and Digital Marketing I have a good foundation of skills that partains to both fields. I am always eager to learn new technologies and take on exciting projects that allow me to grow as a developer.</p>
-  <h2>Bucket List & Aspirations</h2>
-  <ul>
-    <li>Create fun projects that develop and showcase my skills</li>
-    <li>Learn new programming languages and frameworks</li>
-    <li>Contribute to open-source projects</li>
-    <li>Collaborate with other developers on exciting projects</li>
-    <li>Attend tech conferences and meetups to network and learn from industry experts</li>
-    <li>Continuously improve my skills and stay up-to-date with the latest trends in web development</li>
-    <li>Learn more about AI technologies and how they can be integrated into web applications respectfully</li>
-  </ul>
-</div>
-
 <div class="social-media">
   <h3>Connect With Me</h3>
   <div class="social-links">
@@ -68,41 +52,6 @@ h1 {
 
 .profile-image img:hover {
   transform: scale(1.05);
-}
-
-/* ===== INFO SECTION (Bucket List, Aspirations, Brief Info) ===== */
-.info-section {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 2rem;
-  margin: 2rem 0;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.info-section h2 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.8rem;
-  color: #4c9450;
-  margin-bottom: 1rem;
-  border-bottom: 3px solid #488b45;
-  padding-bottom: 0.5rem;
-}
-
-.info-section p {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 1rem;
-  line-height: 1.8;
-}
-
-.info-section ul {
-  list-style-position: inside;
-  margin-left: 1rem;
-}
-
-.info-section li {
-  margin-bottom: 0.8rem;
-  color: #555;
 }
 
 /* ===== SOCIAL MEDIA LINKS ===== */
