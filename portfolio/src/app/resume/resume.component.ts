@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
+
+  <div class="page-wrapper">
+  <aside class="sidebar">
     <div class="profileImage">
       <img src="assets/profile.jpg" alt="Profile Image">
     </div>
@@ -40,6 +43,7 @@ import { Component } from '@angular/core';
       <p><strong>Content Creator</strong></p>
       <p><strong>Retail Team Lead</strong></p>
     </div>
+  </aside>
 
     <div class="resume">
       <h1>Resume</h1>
@@ -111,9 +115,38 @@ import { Component } from '@angular/core';
       <h2>Resume PDF</h2>
       <p><a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</a></p>
     </div>
+  </div>
 
   `,
   styles: `
+
+    :host {
+     display: block;
+     }
+
+    .page-wrapper {
+      display: flex;
+      min-height: 100vh;
+      align-items: flex-start;
+    }
+
+    .sidebar {
+      width: 260px;
+      min-width: 260px;
+      position: sticky;
+      top: 0;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+      border-right: 1px solid #ddd;
+      box-right: 1px solid #ddd;
+      box-sizing: border-box;
+     }
+
+     .resume-main {
+     flex: 1;
+     padding: 32px 40px;
+     box-sizing: border-box;
+     }
   
     .profileImage {
       display: flex;
@@ -128,7 +161,6 @@ import { Component } from '@angular/core';
     }
       
     .basicInfo {
-      max-width: 200px;
       margin: 0 auto;
       text-align: left;
       font-size: 14px;
