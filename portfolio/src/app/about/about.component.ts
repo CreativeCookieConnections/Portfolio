@@ -5,8 +5,18 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div class="about-container">
-      <h1>About Aisha Keller</h1>
+
+    <div class="logo-container">
+      <img src="assets/logo.png" alt="Aisha Keller Logo" class="logo">
+      <img src="assets/logo2.png" alt="Aisha Keller Logo 2" class="logo">
+      <img src="assets/logo3.png" alt="Aisha Keller Logo 3" class="logo">
+      <img src="assets/logo4.png" alt="Aisha Keller Logo 4" class="logo">
+      <img src="assets/logo5.png" alt="Aisha Keller Logo 5" class="logo">
+    </div>
+
+
+  <div class="about-container">
+  <h1>About Aisha Keller</h1>
 
   <h2>About Me</h2>
   <p>Hello, I'm Aisha Keller!</p>
@@ -24,6 +34,15 @@ import { Component } from '@angular/core';
 </div>
   `,
   styles: `
+
+  /* ===== LOGO CONTAINER ===== */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
   /* ===== ABOUT CONTAINER ===== */
 
  .about-container {
