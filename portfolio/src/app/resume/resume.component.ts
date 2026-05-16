@@ -117,7 +117,7 @@ import { Component } from '@angular/core';
   
     .profileImage {
       display: flex;
-      justify-content: center;
+      justify-content: left;
       margin-bottom: 20px;
     }
       
@@ -131,10 +131,10 @@ import { Component } from '@angular/core';
       max-width: 200px;
       margin: 0 auto;
       text-align: left;
-      font-size: 15px;
+      font-size: 14px;
       margin-bottom: 40px;
       background-color: #f9f9f9;
-      padding: 20px;
+      padding: 25px;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
