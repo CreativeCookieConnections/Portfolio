@@ -5,9 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
-      projects works!
-    </p>
+  
+  <div class="projects-container">
+    <h1>Creative Outlets</h1>
+    <p>In addition to my professional work, I have a passion for creative projects that allow me to explore new ideas and express myself in unique ways. Here are some of the creative outlets I enjoy:</p>
+
   `,
   styles: ``
 })
