@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 
     <div class="basicInfo">
       <h1>Contact Information</h1>
-      <p>Email: <a href="mailto:Creativecookieconnections@gmail.com">Creativecookieconnections@gmail.com</a></p>
+      <p>Email: </p>
       <p>Phone: (123) 456-7890</p>
       <p>Address: Centerview, MO</p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/aisha-keller-b82529166/" target="_blank" rel="noopener noreferrer">linkedin.com/in/aisha-keller-b82529166</a></p>
@@ -113,7 +113,82 @@ import { Component } from '@angular/core';
     </div>
 
   `,
-  styles: ``
+  styles: `
+  
+    .profileImage {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+      
+    .profileImage img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+      
+    .basicInfo {
+      max-width: 200px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 15px;
+      margin-bottom: 40px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+      
+
+    .basicInfo h1 {
+      text-align: left;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      color: #14743c;
+      font-size: 20px;
+      font-weight: bold;
+    }
+      
+    .resume {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      align-items: center;
+    }
+      
+    .resume h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #14743c;
+    }
+      
+    .resume h2 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #d376cb;
+    }
+      
+    .resume h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #14743c;
+    }
+      
+    .resume ul {
+      list-style-type: disc;
+      padding-left: 0;
+      margin-left: 20px;
+      }
+      
+    .resume p {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    `
 })
 export class ResumeComponent {
 
