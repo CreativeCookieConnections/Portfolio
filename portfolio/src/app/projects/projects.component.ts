@@ -98,7 +98,6 @@ export class ProjectsComponent {
         "description": "A collection of all the projects completed for the Angular course at Bellevue University. The projects include a vareity of web development tasks that demonstrate my skills in Angular, sing-page-application development.",
         "link": "https://github.com/CreativeCookieConnections/web-425"
       },
-
-}
-
     ];
+  }
+}
