@@ -29,7 +29,7 @@ import { CommonModule } from '@angular/common';
     </ul>
   </div>
   `,
-  styles: `
+  styles: [`
   
     .projects-container {
       display: flex;
@@ -49,6 +49,7 @@ import { CommonModule } from '@angular/common';
       background-color: #fff;
       }
     `
+  ]
 })
 export class ProjectsComponent {
 
