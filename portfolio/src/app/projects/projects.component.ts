@@ -29,7 +29,26 @@ import { CommonModule } from '@angular/common';
     </ul>
   </div>
   `,
-  styles: ``
+  styles: `
+  
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      padding: 0;
+    }
+      
+    .projects-list {
+      flex 0 1 calc(33.33% - 20px);
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+      padding: 20px;
+      background-color: #fff;
+      }
+    `
 })
 export class ProjectsComponent {
 
