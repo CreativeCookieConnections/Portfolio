@@ -1,15 +1,33 @@
+export interface ProjectsItem {
+  title: string;
+  description: string;
+  link: string;
+}
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   template: `
   
   <div class="projects-container">
-    <h1>Creative Outlets</h1>
-    <p>In addition to my professional work, I have a passion for creative projects that allow me to explore new ideas and express myself in unique ways. Here are some of the creative outlets I enjoy:</p>
+    <h1>Creative Projects</h1>
+    <p>Here are some of my projects that I have done throughout my educational journey. Some of the projects contain Web Development skills, Digital Marketing knowledge, and other creative endeavors.</p>
 
+    <ul class="projects-list">
+      @for (item of projects; track item) {
+        <li class="project-item">
+          <div class="card">
+            <h3>{{item.title}}</h3>
+            <p>{{item.description}}</p>
+            <a href="{{item.link}}" target="_blank">View Project</a>
+          </div>
+        </li>
+      }
+    </ul>
+  </div>
   `,
   styles: ``
 })
