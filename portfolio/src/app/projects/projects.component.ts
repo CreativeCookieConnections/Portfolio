@@ -51,6 +51,54 @@ import { CommonModule } from '@angular/common';
     `
   ]
 })
+
 export class ProjectsComponent {
+  projects: ProjectsItem[];
+
+  constructor() {
+    this.projects = [
+      {
+        "title": "BioSite",
+        "description": "A biosite created as an assignment for a Web Development course at Bellevue University. The biosite features my daughter and cool little information about her. It was created using HTML, and CSS.",
+        "link": "https://github.com/CreativeCookieConnections/bioSite"
+      },
+
+      {
+        "title": "All the Projects Completed for JavaScript I Course",
+        "description": "A collection of all the projects completed for the JavaScript I course at Bellevue University. The projects include a variety of web development tasks that demonstrate my skills in JavaScript, HTML, and CSS.",
+        "link": "https://github.com/CreativeCookieConnections/web-231"
+      },
+
+      {
+        "title": "All the Projects Completed for Node.js Course",
+        "description": "A collection of all the projects completed for the Node.js course at Bellevue University. The projects include a variety of tasks that demonstrate my skills in Node.js, and Express.",
+        "link": "https://github.com/CreativeCookieConnections/web-340"
+      },
+
+      { 
+        "title": "All the Projects Completed for JavaScript II Course",
+        "description": "A collection of all the projects completed for the JavaScript II course at Bellevue University. The projects include a variety of web development tasks that demonstrate my skills in JavaScript, HTML, and CSS.",
+        "link": "https://github.com/CreativeCookieConnections/web-330"
+      },
+
+      {
+        "title": "All the Projects Completed for RESTful API's Course",
+        "description": "A collection of all the projects completed for the RESTful API course at Bellevue University. The projects include a variety of web development tasks that demonstrate my skills in API.",
+        "link": "https://github.com/CreativeCookieConnections/web-420"
+      },
+
+      {
+        "title": "All the projects Completed for NoSQL Course",
+        "description": "A collection of all the projects completed for the NoSQL course at Bellevue University. The projects include a variety of web development tasks that demonstrate my skills in NoSQL and MongoDB.",
+        "link": "https://github.com/CreativeCookieConnections/web-335"
+      },
+
+      {
+        "title": "All the Projects Completed for the Angular Course",
+        "description": "A collection of all the projects completed for the Angular course at Bellevue University. The projects include a vareity of web development tasks that demonstrate my skills in Angular, sing-page-application development.",
+        "link": "https://github.com/CreativeCookieConnections/web-425"
+      },
 
 }
+
+    ];
