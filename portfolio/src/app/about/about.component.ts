@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
   template: `
 
     <div class="logo-container">
-      <img src="assets/logo.png" alt="Aisha Keller Logo" class="logo">
-      <img src="assets/logo2.png" alt="Aisha Keller Logo 2" class="logo">
-      <img src="assets/logo3.png" alt="Aisha Keller Logo 3" class="logo">
-      <img src="assets/logo4.png" alt="Aisha Keller Logo 4" class="logo">
-      <img src="assets/logo5.png" alt="Aisha Keller Logo 5" class="logo">
+      <img src="assets/originalLogo.png" alt="a personal logo with a bunny in a circle with flowers." class="logo1">
+      <img src="assets/fallLogo.png" alt="personal logo with a bunny in the middle surrounded by fall leaves." class="logo2">
+      <img src="assets/portfoliophoto2.jpg" alt="picture of my face with makeup." class="logo3">
+      <img src="assets/halloweenLogo.png" alt="personal logo with a bunny in the middle with spider webs around." class="logo4">
+      <img src="assets/springLogo.png" alt="personal logo with a bunny in the middle with flowers and flower pedals around it." class="logo5">
     </div>
 
 
@@ -42,6 +42,16 @@ import { Component } from '@angular/core';
     gap: 1rem;
     margin-bottom: 2rem;
   }
+
+  /* ===== LOGO IMAGES ===== */
+
+  .logo-container img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
 
   /* ===== ABOUT CONTAINER ===== */
 

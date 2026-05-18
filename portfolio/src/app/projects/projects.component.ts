@@ -11,14 +11,13 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-  
-  <div class="projects-container">
+  <div>
     <h1>Creative Projects</h1>
     <p>Here are some of my projects that I have done throughout my educational journey. Some of the projects contain Web Development skills, Digital Marketing knowledge, and other creative endeavors.</p>
 
     <ul class="projects-list">
       @for (item of projects; track item) {
-        <li class="project-item">
+        <li class="projects-item">
           <div class="card">
             <h3>{{item.title}}</h3>
             <p>{{item.description}}</p>
@@ -31,23 +30,23 @@ import { CommonModule } from '@angular/common';
   `,
   styles: [`
   
-    .projects-container {
+    .projects-list {
       display: flex;
       flex-wrap: wrap;
       list-style-type: none;
       padding: 0;
     }
       
-    .projects-list {
-      flex 0 1 calc(33.33% - 20px);
+    .projects-item {
+      flex: 0 1 calc(33.33% - 20px);
       margin: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .card {
       padding: 20px;
       background-color: #fff;
-      }
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
     `
   ]
 })
