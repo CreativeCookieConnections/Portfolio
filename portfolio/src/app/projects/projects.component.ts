@@ -166,11 +166,28 @@ export class ProjectsComponent {
       },
 
       {
-        "title": 
-      }
+        "title": "Anime Sticker Haul - CreativeCookieConnections TikTok Content",
+        "description": "My first TikTok video showcasing some Anime Sticker products. Seen this was a trend and decided to try and make it myself.",
+        "link": "https://www.tiktok.com/@createcookieconnect/video/7156015039961451818?is_from_webapp=1&sender_device=pc&web_id=7542634216107394615"
+      },
 
+      {
+        "title": "Samurai Kid Dagashi Japanese Snack Haul - CreativeCookieConnections TikTok Content",
+        "description": "My first TikTok video doing a snack haul. I am a major foodie who enjoys trying new things. This time I wanted to film the process of unbagging the candy and upload it to TikTok as content.",
+        "link": "https://www.tiktok.com/@createcookieconnect/video/7156049911186836782?is_from_webapp=1&sender_device=pc&web_id=7542634216107394615"
+      },
 
+      {
+        "title": "Manga Mystery Box Tik Tok Video Advertisement - CreativeCookieConnections TikTok Content",
+        "description": "My first TikTok video which advertises for my Manga Mystery Box unboxing video. Wanted to try and create an actual video advertisement to get views.",
+        "link": "https://www.tiktok.com/@createcookieconnect/video/7156063566523845934?is_from_webapp=1&sender_device=pc&web_id=7542634216107394615",
+      },
 
+      {
+        "title": "Unboxing Adventures Pokemon Elite Trainer Box Advertisement Video - CreativeCookieConnections TikTok Content",
+        "description": "A TikTok video that markets the actual unboxing video on TikTok. I am a Pokemon Card collector and I made quite a bit of Pokemon Unboxing Content.",
+        "link": "https://www.tiktok.com/@createcookieconnect/video/7156239434034269482?is_from_webapp=1&sender_device=pc&web_id=7542634216107394615"
+      },
 
     ];
   }
