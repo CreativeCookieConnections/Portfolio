@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   template: `
 
     <div class="logo-container">
-      <img src="assets/originalLogo.png" alt="a personal logo with a bunny in a circle with flowers." class="logo1">
+      <img src="assets/originalLogo.jpg" alt="a personal logo with a bunny in a circle with flowers." class="logo1">
       <img src="assets/fallLogo.png" alt="personal logo with a bunny in the middle surrounded by fall leaves." class="logo2">
       <img src="assets/portfoliophoto2.jpg" alt="picture of my face with makeup." class="logo3">
       <img src="assets/halloweenLogo.png" alt="personal logo with a bunny in the middle with spider webs around." class="logo4">
@@ -41,6 +41,7 @@ import { Component } from '@angular/core';
     justify-content: center;
     gap: 1rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   /* ===== LOGO IMAGES ===== */
