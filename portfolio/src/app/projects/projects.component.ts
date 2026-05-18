@@ -98,6 +98,80 @@ export class ProjectsComponent {
         "description": "A collection of all the projects completed for the Angular course at Bellevue University. The projects include a vareity of web development tasks that demonstrate my skills in Angular, sing-page-application development.",
         "link": "https://github.com/CreativeCookieConnections/web-425"
       },
+
+      {
+        "title": "My ePortfolio for Digital Marketing Courses and Bryant & Stratton Online College",
+        "description": "A collection of some of the projects completed while studying for my Digital marketing Bachelors Degree at Bryant & Stratton Online College.",
+        "link": "http://mycred.com/p/1987059580/"
+      },
+
+      {
+        "title": "MineCraft Baddies Discord Chat Logo",
+        "description": "Wanted to make a Logo for a Discord Chat that incorporates friendship and gaming time.",
+        "link": "https://canva.link/0c7s0alxnvvmwep"
+      },
+
+      {
+        "title": "Hershey Advertisement Design for Digital Marketing Course",
+        "description": "A design made as an Assignment for a Digital Marketing Course at Bryant & Stratton Online College. It is mean to go in an email.",
+        "link": "https://canva.link/js09silgwzyivgs" 
+      },
+
+      {
+        "title": "Self Advertisement Pamphlet",
+        "description": "A design made as an Assignment for Digital Marketing for professional development and self advertisement. It was made as a simple little article which showcases who I am as a Digital Marketer and what I represent.",
+        "link": "https://canva.link/q4ys9cvzuohc7yj"
+      },
+
+      {
+        "title": "Digital Marketing Advertisement for Assignment: Adopt a Shelter Pet Day with 10 Tentree",
+        "description": "Images created to advertise a make-believe marketing strategy for a company. A chosen company is to partner up with an organization, and I was to create a marketing strategy to incorporate their products and online website along with the organization's cause. These are the designs I created to be put in emails, for display advertisements, social media content, and more.",
+        "link": "https://canva.link/6oo9f5b82v1x9ma"
+      },
+
+      {
+        "title": "Digital Marketing Group Assignment: Bows That Grow Logo Designs",
+        "description": "These designs were all made for a group project that had us create a digital and traditional marketing stratgy in order to extend its reach out to a global target market. Each design was put together to signify the group, business, and products.",
+        "link": "https://canva.link/1z5loddh6t29tg3"
+      },
+
+      {
+        "title": "CreativeCookieConnections Personal Logo",
+        "description": "This logo is my identiy as a creator, developer, and marketer. This logo has been utilized primarily for my social media accounts to share my creative content. This logo represents CreativeCookieConnections.",
+        "link": "https://canva.link/7jc7clk5yp5clxy"
+      },
+
+      {
+        "title": "CreativeCookieConnections Fall Logo",
+        "description": "This logo is the updated fall themed logo. This was used for some TikTok content. I wanted to incorporate my icon, but update it to fit the trend of the season.",
+        "link": "https://canva.link/rlrduye9t2lxmo8"
+      },
+
+      {
+        "title": "CreativeCookieConnections Halloween Logo",
+        "description": "The logo is updated to be Halloween themed. This was used for TikTok content at the time. Wanted to incorporate the original icon, and update it to fit the season trend.",
+        "link": "https://www.canva.com/design/DAFPoO9nDJ0/q1xcg2DMSlQbExQsrU9lNg/edit"
+      },
+
+      {
+        "title": "CreativeCookieConnections Spring Time Logo",
+        "description": "The logo is updated to be Spring themed. This was used for TikTok content. Wanted to incorporate the original icon, and update it to fit the season trend.",
+        "link": "https://canva.link/al0t4acziwfpb6u"
+      },
+
+      {
+        "title": "CreativeCookieConnections Mobile Wallpaper",
+        "description": "Created a mobile wall paper for my cellphone device. I incorporated my original icon design, modern and decorative elements to it.",
+        "link": "https://www.canva.com/design/DAFPiRh3-sQ/2UHCdoCNiGuPtFkkjh1jAA/edit"
+      },
+
+      {
+        "title": 
+      }
+
+
+
+
     ];
   }
 }
