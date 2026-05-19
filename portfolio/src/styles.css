@@ -25,7 +25,7 @@ body {
 .navbar {
   background-color: #368369;
   padding: 1rem 0;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 60px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -50,7 +50,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #3498db;
+  color: #e28b8b;
   transition: all 0.3s ease;
 }
 

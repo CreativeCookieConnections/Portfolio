@@ -28,12 +28,13 @@ import { Component } from '@angular/core';
 h1 {
   font-family: 'Nunito', ital;
   font-size: 4rem;
-  color: #2c3e50;
+  color: #e0c17e;
   text-align: center;
   margin: 2rem 0 1rem;
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: 1px;
 }
+
 
 /* ===== PROFILE IMAGE SECTION ===== */
 .profile-image {
@@ -42,11 +43,10 @@ h1 {
 }
 
 .profile-image img {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   border-radius: 100%;
   object-fit: cover;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -59,15 +59,15 @@ h1 {
   text-align: center;
   margin: 5rem 0;
   padding: 5rem;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 100px;
+  box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
 }
 
 .social-media h3 {
   font-family: 'Nunito', ital;
   font-size: 3.2rem;
-  color: #2c3e50;
+  color: #e0c17e;
   margin-bottom: 5rem;
 }
 
@@ -82,19 +82,15 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  color: #fff;
+  width: 60px;
+  height: 60px;
+  color: #f0baba;
   border-radius: 50%;
-  text-decoration: none;
-  font-size: 1.5rem;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .social-links a:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 
