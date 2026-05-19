@@ -113,7 +113,7 @@ import { Component } from '@angular/core';
       </ul>
 
       <h2>Resume PDF</h2>
-      <p><a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</a></p>
+      <p><a href="assets/resumePortfolio.pdf" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</a></p>
     </div>
   </div>
 
