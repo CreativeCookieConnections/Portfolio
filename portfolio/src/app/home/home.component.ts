@@ -28,7 +28,7 @@ import { Component } from '@angular/core';
 h1 {
   font-family: 'Nunito', ital;
   font-size: 4rem;
-  color: #e0c17e;
+  color: #105561;
   text-align: center;
   margin: 2rem 0 1rem;
   font-weight: 700;
@@ -39,7 +39,7 @@ h1 {
 /* ===== PROFILE IMAGE SECTION ===== */
 .profile-image {
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .profile-image img {
