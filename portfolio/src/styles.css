@@ -23,7 +23,7 @@ body {
 
 /* ===== NAVIGATION BAR ===== */
 .navbar {
-  background-color: #368369;
+  background-color: #bea27d;
   padding: 1rem 0;
   border-radius: 60px;
   position: sticky;
@@ -66,15 +66,16 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /* ===== FOOTER ===== */
 .footer {
-  background-color: #368369;
+  background-color: #bea27d;
+  border-radius: 60px;
   color: #ecf0f1;
   text-align: center;
-  padding: 2rem;
+  padding: 0.9rem;
   margin-top: auto;
   font-size: 0.95rem;
 }
@@ -84,13 +85,13 @@ body {
 }
 
 .footer a {
-  color: #3498db;
+  color: #0f5b8d;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #2980b9;
+  color: #6893b1;
   text-decoration: underline;
 }
 
