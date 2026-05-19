@@ -26,8 +26,8 @@ import { Component } from '@angular/core';
   styles: [`
     /* ===== TITLE (H1) ===== */
 h1 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 2.5rem;
+  font-family: 'Nunito', ital;
+  font-size: 4rem;
   color: #2c3e50;
   text-align: center;
   margin: 2rem 0 1rem;
@@ -44,7 +44,7 @@ h1 {
 .profile-image img {
   width: 500px;
   height: 500px;
-  border-radius: 50%;
+  border-radius: 100%;
   object-fit: cover;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -65,10 +65,10 @@ h1 {
 }
 
 .social-media h3 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Nunito', ital;
+  font-size: 3.2rem;
   color: #2c3e50;
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
 }
 
 .social-links {
