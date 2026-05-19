@@ -61,14 +61,14 @@ import { Component } from '@angular/core';
   margin: 0 auto;
   padding: 2rem;
   background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+  box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
 }
 
 .about-container h1 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 2.5rem;
-  color: #2c3e50;
+  font-family: 'Nunito', ital;
+  font-size: 3rem;
+  color: #105561;
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 700;
@@ -76,11 +76,11 @@ import { Component } from '@angular/core';
 }
 
 .about-container h2 {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Nunito', ital;
   font-size: 1.8rem;
-  color: #4c9450;
+  color: #e0c17e;
   margin-bottom: 1rem;
-  border-bottom: 3px solid #488b45;
+  border-bottom: 3px solid #f0baba;
   padding-bottom: 0.5rem;
 }
 
@@ -92,7 +92,7 @@ import { Component } from '@angular/core';
 }
 
 .about-container ul {
-  list-style-type: disc;
+  list-style-image: url('/assets/butterflyOrb.png');
   padding-left: 1.5rem;
   color: #555;
   line-height: 1.8;
