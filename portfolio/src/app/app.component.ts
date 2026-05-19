@@ -43,6 +43,14 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
 styles: [
   `
+  .wrapper {
+    min-height: 100vh;
+    background-image: url('/assets/backgroundButterfly.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
   `
 ]
 })
