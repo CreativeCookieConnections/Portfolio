@@ -94,7 +94,6 @@ import { Component } from '@angular/core';
 .about-container ul {
   list-style-image: url('/assets/butterflyOrb.png');
   padding-left: 2rem;
-  color: #555;
   line-height: 1.8;
 }
 

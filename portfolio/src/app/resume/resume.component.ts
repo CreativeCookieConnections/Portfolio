@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   <div class="page-wrapper">
   <aside class="sidebar">
     <div class="profileImage">
-      <img src="assets/profile.jpg" alt="Profile Image">
+      <img src="assets/resumeLogo.png" alt="Profile Image">
     </div>
 
     <div class="basicInfo">
@@ -136,10 +136,12 @@ import { Component } from '@angular/core';
       position: sticky;
       top: 0;
       min-height: 100vh;
-      background-color: #f0f0f0;
+      background-color: #ecd4d4;
       border-right: 1px solid #ddd;
       box-right: 1px solid #ddd;
       box-sizing: border-box;
+      border-radius: 60px;
+      margin-top: 1rem;
      }
 
      .resume-main {
@@ -150,8 +152,9 @@ import { Component } from '@angular/core';
   
     .profileImage {
       display: flex;
-      justify-content: left;
+      justify-content: center;
       margin-bottom: 20px;
+      margin-top: 20px;
     }
       
     .profileImage img {
@@ -167,7 +170,7 @@ import { Component } from '@angular/core';
       margin-bottom: 40px;
       background-color: #f9f9f9;
       padding: 25px;
-      border-radius: 8px;
+      border-radius: 60px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
       
@@ -176,9 +179,15 @@ import { Component } from '@angular/core';
       text-align: left;
       margin-bottom: 20px;
       margin-top: 20px;
-      color: #14743c;
+      color: #9e549e;
       font-size: 20px;
       font-weight: bold;
+    }
+
+    .basicInfo ul {
+    list-style-image: url('/assets/butterflyOrb.png');
+    padding-left: 2rem;
+    line-height: 1.8;
     }
       
     .resume {
@@ -186,38 +195,45 @@ import { Component } from '@angular/core';
       margin: 0 auto;
       padding: 20px;
       background-color: #f9f9f9;
-      border-radius: 8px;
+      border-radius: 60px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       align-items: center;
+      margin-top: 20px;
     }
       
     .resume h1 {
       text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
       margin-bottom: 20px;
-      color: #14743c;
+      color: #9e549e;
     }
       
     .resume h2 {
       margin-top: 30px;
       margin-bottom: 10px;
-      color: #d376cb;
+      color: #e0c17e;
+      border-bottom: 3px solid #f0baba;
     }
       
     .resume h3 {
       margin-top: 20px;
       margin-bottom: 10px;
-      color: #14743c;
+      color: #48755b;
     }
       
     .resume ul {
-      list-style-type: disc;
-      padding-left: 0;
+      list-style-image: url('/assets/butterflyOrb.png');
+      padding-left: 2rem;
       margin-left: 20px;
       }
       
     .resume p {
+      font-size: 1rem;
       margin-bottom: 10px;
-      color: #333;
+      color: #555;
+      line-height: 1.8;
     }
 
     `
