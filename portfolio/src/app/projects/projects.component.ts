@@ -39,7 +39,7 @@ import { CommonModule } from '@angular/common';
       text-align: center;
       margin-top: 2rem;
       margin-bottom: 2rem;
-      background-color: white;
+      background-color: #d3abab;
       padding: 2rem;
       border-radius: 60px;
       box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
@@ -52,6 +52,7 @@ import { CommonModule } from '@angular/common';
       list-style-type: none;
       padding: 1rem;
       align-items: stretch;
+      text-align: center;
     }
       
     .projects-item {
@@ -81,8 +82,8 @@ import { CommonModule } from '@angular/common';
     h2 {
     font-size: 20px;
     text-align: center;
-    color: #e0c17e;
-    background-color: #ad8484;
+    color: #f1c971;
+    background-color: #c29b9bef;
     border-radius: 60px;
     padding: 1rem;
     }
@@ -91,7 +92,14 @@ import { CommonModule } from '@angular/common';
     padding-bottom: 1rem;
     font-size: 15px;
     text-align: center;
-    color: #835ba3;
+    color: #a188b6;
+    margin-top: 1rem;
+    }
+
+    p {
+    color: #555;
+    font-size: 0.9rem; 
+    margin-bottom: 0.8rem;
     }
     `
   ]
