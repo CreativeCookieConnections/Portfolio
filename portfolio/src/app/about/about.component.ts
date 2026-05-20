@@ -47,8 +47,8 @@ import { Component } from '@angular/core';
   /* ===== LOGO IMAGES ===== */
 
   .logo-container img {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: 50%;
   }
