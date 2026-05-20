@@ -68,7 +68,7 @@ h1 {
   font-family: 'Nunito', ital;
   font-size: 3.2rem;
   color: #e0c17e;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 .social-links {
