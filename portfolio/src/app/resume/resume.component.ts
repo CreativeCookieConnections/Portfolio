@@ -196,7 +196,7 @@ import { Component } from '@angular/core';
       padding: 20px;
       background-color: #f9f9f9;
       border-radius: 60px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(245, 178, 178, 0.67);
       align-items: center;
       margin-top: 20px;
     }
