@@ -27,10 +27,10 @@ import { Component } from '@angular/core';
     /* ===== TITLE (H1) ===== */
 h1 {
   font-family: 'Nunito', ital;
-  font-size: 4rem;
-  color: #105561;
+  font-size: 5rem;
+  color: #9e549e;
   text-align: center;
-  margin: 2rem 0 1rem;
+  margin-bottom: -3rem;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -57,8 +57,8 @@ h1 {
 /* ===== SOCIAL MEDIA LINKS ===== */
 .social-media {
   text-align: center;
-  margin: 5rem 0;
-  padding: 5rem;
+  margin-top: -4rem;
+  padding: 1rem;
   background-color: #ffffff;
   border-radius: 100px;
   box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
@@ -74,6 +74,7 @@ h1 {
 .social-links {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
   gap: 5rem;
   flex-wrap: wrap;
 }
@@ -82,6 +83,8 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-top: -3rem;
+  padding-bottom: 4rem;
   width: 60px;
   height: 60px;
   color: #f0baba;

@@ -68,7 +68,7 @@ import { Component } from '@angular/core';
 .about-container h1 {
   font-family: 'Nunito', ital;
   font-size: 3rem;
-  color: #105561;
+  color: #9e549e;
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 700;
@@ -93,7 +93,7 @@ import { Component } from '@angular/core';
 
 .about-container ul {
   list-style-image: url('/assets/butterflyOrb.png');
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   color: #555;
   line-height: 1.8;
 }
