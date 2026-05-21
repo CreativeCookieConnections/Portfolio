@@ -26,6 +26,7 @@ import { CommonModule } from '@angular/common';
           <div class="card">
             <h2>{{item.title}}</h2>
             <h3>{{item.where}}</h3>
+            <h3>{{item.tools}}</h3>
             <p>{{item.description}}</p>
             <a href="{{item.link}}" target="_blank">View Project</a>
           </div>
@@ -94,7 +95,6 @@ import { CommonModule } from '@angular/common';
     font-size: 15px;
     text-align: center;
     color: #a188b6;
-    margin-top: 1rem;
     }
 
     p {
