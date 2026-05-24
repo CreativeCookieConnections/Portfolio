@@ -5,8 +5,21 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
+
 <div class="home-container">
-<h1>Aisha Keller</h1>
+
+<svg viewBox="0 0 1200 400" width="100%" height="260px">
+  <!-- The path for the text to follow (invisible or styled) -->
+  <path id="curvePath" d="M 10 280 Q 600 80 1190 280" fill="transparent" />
+
+  <!-- The h1 text that curves along the path -->
+  <text font-size="135" font-family="Nunito" fill="#836083">
+    <textPath href="#curvePath" startOffset="50%" text-anchor="middle">
+    Creative Garden
+    </textPath>
+  </text>
+</svg>
+
 
 <div class="profile-image">
   <img src="assets/profileImage.png" alt="Profile Image of Aisha Keller in the shape of a circle with flower border" />
@@ -24,22 +37,26 @@ import { Component } from '@angular/core';
 </div>
   `,
   styles: [`
-    /* ===== TITLE (H1) ===== */
-h1 {
-  font-family: 'Nunito', ital;
-  font-size: 5rem;
-  color: #9e549e;
-  text-align: center;
-  margin-bottom: -3rem;
-  font-weight: 700;
-  letter-spacing: 1px;
+
+
+/* ===== TITLE (H1 CURVE TEXT) ===== */
+
+svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
+textPath {
+  font-weight: bold;
+  text-shadow: 3px 3px 8px #fff;
+  letter-spacing: 5px;
+}
 
 /* ===== PROFILE IMAGE SECTION ===== */
 .profile-image {
   text-align: center;
-  margin: 1rem 0;
+  margin: -12rem 0 1rem 0;
 }
 
 .profile-image img {
@@ -55,20 +72,23 @@ h1 {
 }
 
 /* ===== SOCIAL MEDIA LINKS ===== */
+
 .social-media {
   text-align: center;
   margin-top: -4rem;
-  padding: 1rem;
-  background-color: #ffffff;
+  padding: 2rem;
+  background-color: #d1bbbb;
   border-radius: 100px;
-  box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
+  border: 2px solid #b89090;
+  box-shadow: 4px 4px 6px rgba(7, 7, 7, 0.67);
 }
 
 .social-media h3 {
   font-family: 'Nunito', ital;
   font-size: 3.2rem;
-  color: #e0c17e;
-  margin-bottom: 6rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #4d2727;
+  margin-bottom: 7rem;
 }
 
 .social-links {
