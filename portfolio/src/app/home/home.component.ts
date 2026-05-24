@@ -80,7 +80,7 @@ textPath {
   background-color: #d1bbbb;
   border-radius: 100px;
   border: 2px solid #b89090;
-  box-shadow: 4px 4px 6px rgba(7, 7, 7, 0.67);
+  box-shadow: 2px 2px 8px #22180b;
 }
 
 .social-media h3 {
