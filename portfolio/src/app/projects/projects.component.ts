@@ -41,10 +41,11 @@ import { CommonModule } from '@angular/common';
       text-align: center;
       margin-top: 2rem;
       margin-bottom: 2rem;
+      border: 2px solid #b89090;
       background-color: #d3abab;
       padding: 2rem;
       border-radius: 60px;
-      box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
+      box-shadow: 4px 4px 6px rgba(245, 178, 178, 0.67);
 
       }
   
@@ -67,8 +68,9 @@ import { CommonModule } from '@angular/common';
     .card {
       padding: 20px;
       border-radius: 60px;
+      border: 2px solid #b89090;
       background-color: #fff;
-      box-shadow: 0 4px 8px rgba(245, 178, 178, 0.67);
+      box-shadow: 4px 4px 8px rgba(245, 178, 178, 0.67);
       display: flex;
       flex-direction: column;
       flex: 1;
@@ -76,15 +78,18 @@ import { CommonModule } from '@angular/common';
 
     h1 {
     text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #4d2727;
     padding-top: 1rem;
-    color: #9e549e;
     font-size: 3rem;
     }
     
     h2 {
     font-size: 20px;
     text-align: center;
-    color: #f1c971;
+    color: #fff;
+    text-shadow: 1px 1px 2px #6d5050;
+    border: 2px solid #b89090;
     background-color: #c29b9bef;
     border-radius: 60px;
     padding: 1rem;
@@ -95,6 +100,7 @@ import { CommonModule } from '@angular/common';
     font-size: 15px;
     text-align: center;
     color: #a188b6;
+    text-shadow: 1px 1px 1px #bb9595;
     }
 
     p {
