@@ -138,18 +138,11 @@ import { Component } from '@angular/core';
       min-height: 100vh;
       background-color: #382b38;
       border-right: 1px solid #ddd;
-      box-right: 1px solid #ddd;
       box-sizing: border-box;
       border-radius: 60px;
       margin-top: 1rem;
      }
 
-     .resume-main {
-     flex: 1;
-     padding: 32px 40px;
-     box-sizing: border-box;
-     }
-  
     .profileImage {
       display: flex;
       justify-content: center;

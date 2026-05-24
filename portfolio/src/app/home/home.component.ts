@@ -84,7 +84,7 @@ textPath {
 }
 
 .social-media h3 {
-  font-family: 'Nunito', ital;
+  font-family: 'Nunito', sans-serif;
   font-size: 3.2rem;
   color: #ffffff;
   text-shadow: 2px 2px 2px #4d2727;

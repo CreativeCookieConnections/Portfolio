@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
 
     <ul class="projects-list">
       @for (item of projects; track item) {
-        <li class="projects-item">
+        <li class="project-item">
           <div class="card">
             <h2>{{item.title}}</h2>
             <h3>{{item.where}}</h3>
@@ -58,7 +58,7 @@ import { CommonModule } from '@angular/common';
       text-align: center;
     }
       
-    .projects-item {
+    .project-item {
       flex: 0 1 calc(25% - 20px);
       margin: 10px;
       display: flex;

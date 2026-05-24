@@ -19,11 +19,11 @@ describe('AppComponent (Standalone)', () => {
     };
 
     const routes: Routes = [
-      {path: 'menu', component: ProjectsComponent}
+      {path: 'projects', component: ProjectsComponent}
     ]
 
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule.withRoutes(routes), RouterTestingModule, ProjectsComponent
+      imports: [RouterTestingModule.withRoutes(routes), ProjectsComponent
       ],
     }).compileComponents();
   });
