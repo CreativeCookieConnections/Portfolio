@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
   <path id="curvePath" d="M 10 280 Q 600 80 1190 280" fill="transparent" />
 
   <!-- The h1 text that curves along the path -->
-  <text font-size="135" font-family="Nunito" fill="#836083">
+  <text font-size="135" font-family="Nunito" fill="#382b38">
     <textPath href="#curvePath" startOffset="50%" text-anchor="middle">
     Creative Garden
     </textPath>
@@ -49,7 +49,7 @@ svg {
 
 textPath {
   font-weight: bold;
-  text-shadow: 3px 3px 8px #fff;
+  text-shadow: 3px 3px 8px #836083;
   letter-spacing: 5px;
 }
 
