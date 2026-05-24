@@ -20,19 +20,21 @@ import { RouterLink } from '@angular/router';
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    height: 60vh;
+  }
+
+  .error-image img {
+    width: 800px;
+    height: auto;
   }
 
   .link-router {
     text-align: center;
-    margin-top: 4rem;
-    background-color: #649c80;
+    background-color: #aa8888;
     border-radius: 60px;
-    box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
-    color: #0f5b8d;
+    box-shadow: 2px 2px 8px #22180b;
     text-decoration: underline;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0.5rem 0;
   }
 

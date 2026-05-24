@@ -87,8 +87,8 @@ import { CommonModule } from '@angular/common';
     h2 {
     font-size: 20px;
     text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 2px #6d5050;
+    color: #382b38;
+    text-shadow: 1px 1px 2px #4d3737;
     border: 2px solid #b89090;
     background-color: #c29b9bef;
     border-radius: 60px;
