@@ -136,7 +136,7 @@ import { Component } from '@angular/core';
       position: sticky;
       top: 0;
       min-height: 100vh;
-      background-color: #ecd4d4;
+      background-color: #382b38;
       border-right: 1px solid #ddd;
       box-right: 1px solid #ddd;
       box-sizing: border-box;
@@ -161,6 +161,7 @@ import { Component } from '@angular/core';
       width: 150px;
       height: 150px;
       border-radius: 50%;
+      box-shadow: 2px 2px 8px #22180b;
     }
       
     .basicInfo {
@@ -168,7 +169,8 @@ import { Component } from '@angular/core';
       text-align: left;
       font-size: 14px;
       margin-bottom: 40px;
-      background-color: #f9f9f9;
+      background-color: #bda0a0;
+      border: 2px solid #382b38;
       padding: 25px;
       border-radius: 60px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -179,7 +181,8 @@ import { Component } from '@angular/core';
       text-align: left;
       margin-bottom: 20px;
       margin-top: 20px;
-      color: #9e549e;
+      color: #fff;
+      text-shadow: 2px 2px 4px #22180b;
       font-size: 20px;
       font-weight: bold;
     }
@@ -194,7 +197,8 @@ import { Component } from '@angular/core';
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
-      background-color: #f9f9f9;
+      background-color: #dfc7c7;
+      border: 2px solid #b89090;;
       border-radius: 60px;
       box-shadow: 0 4px 8px rgba(245, 178, 178, 0.67);
       align-items: center;
@@ -207,20 +211,23 @@ import { Component } from '@angular/core';
       font-weight: 700;
       letter-spacing: -0.5px;
       margin-bottom: 20px;
-      color: #9e549e;
+      color: #fff;
+      text-shadow: 2px 2px 4px #22180b;
     }
       
     .resume h2 {
       margin-top: 30px;
       margin-bottom: 10px;
-      color: #e0c17e;
-      border-bottom: 3px solid #f0baba;
+      color: #382b38;
+      text-shadow: 1px 1px 2px #6d5050;
+      border-bottom: 3px solid #836161;
     }
       
     .resume h3 {
       margin-top: 20px;
       margin-bottom: 10px;
-      color: #48755b;
+      color: #fff;
+      text-shadow: 2px 2px 4px #22180b;
     }
       
     .resume ul {
