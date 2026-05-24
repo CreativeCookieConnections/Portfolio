@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
 
 
   <div class="about-container">
-  <h1>About Aisha Keller</h1>
+  <h1>Inspired to Grow</h1>
 
   <h2>About Me</h2>
   <p>Hello, I'm Aisha Keller!</p>
@@ -51,6 +51,7 @@ import { Component } from '@angular/core';
     height: 160px;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 2px 2px 8px #22180b;
   }
   
 
@@ -60,15 +61,17 @@ import { Component } from '@angular/core';
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: #dfc7c7;
+  border: 2px solid #b89090;
   border-radius: 60px;
-  box-shadow: 0 2px 10px rgba(245, 178, 178, 0.67);
+  box-shadow: 2px 2px 8px #22180b;
 }
 
 .about-container h1 {
   font-family: 'Nunito', ital;
   font-size: 3rem;
-  color: #9e549e;
+  color: #fff;
+  text-shadow: 2px 2px 4px #4d2727;
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 700;
@@ -78,9 +81,10 @@ import { Component } from '@angular/core';
 .about-container h2 {
   font-family: 'Nunito', ital;
   font-size: 1.8rem;
-  color: #e0c17e;
+  color: #382b38;
+  text-shadow: 1px 1px 2px #6d5050;
   margin-bottom: 1rem;
-  border-bottom: 3px solid #f0baba;
+  border-bottom: 3px solid #382b38;
   padding-bottom: 0.5rem;
 }
 
