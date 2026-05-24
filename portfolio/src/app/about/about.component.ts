@@ -61,17 +61,17 @@ import { Component } from '@angular/core';
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #dfc7c7;
+  background-color: #f1d6d6;
   border: 2px solid #b89090;
-  border-radius: 60px;
+  border-radius: 30px;
   box-shadow: 2px 2px 8px #22180b;
 }
 
 .about-container h1 {
   font-family: 'Nunito', ital;
   font-size: 3rem;
-  color: #fff;
-  text-shadow: 2px 2px 4px #4d2727;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #1b0f0f;
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 700;
@@ -81,8 +81,8 @@ import { Component } from '@angular/core';
 .about-container h2 {
   font-family: 'Nunito', ital;
   font-size: 1.8rem;
-  color: #382b38;
-  text-shadow: 1px 1px 2px #6d5050;
+  color: #a188b6;
+  text-shadow: 1px 1px 2px #4b3737;
   margin-bottom: 1rem;
   border-bottom: 3px solid #382b38;
   padding-bottom: 0.5rem;

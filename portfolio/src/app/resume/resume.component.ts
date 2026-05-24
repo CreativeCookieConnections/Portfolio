@@ -139,7 +139,7 @@ import { Component } from '@angular/core';
       background-color: #382b38;
       border-right: 1px solid #ddd;
       box-sizing: border-box;
-      border-radius: 60px;
+      border-radius: 30px;
       margin-top: 1rem;
      }
 
@@ -165,7 +165,7 @@ import { Component } from '@angular/core';
       background-color: #bda0a0;
       border: 2px solid #382b38;
       padding: 25px;
-      border-radius: 60px;
+      border-radius: 30px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
       
@@ -192,7 +192,7 @@ import { Component } from '@angular/core';
       padding: 20px;
       background-color: #dfc7c7;
       border: 2px solid #b89090;;
-      border-radius: 60px;
+      border-radius: 30px;
       box-shadow: 0 4px 8px rgba(245, 178, 178, 0.67);
       align-items: center;
       margin-top: 20px;

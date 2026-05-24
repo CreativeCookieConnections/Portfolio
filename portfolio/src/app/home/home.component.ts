@@ -78,7 +78,7 @@ textPath {
   margin-top: -4rem;
   padding: 2rem;
   background-color: #d3abab;
-  border-radius: 100px;
+  border-radius: 60px;
   border: 2px solid #b89090;
   box-shadow: 2px 2px 8px #22180b;
 }

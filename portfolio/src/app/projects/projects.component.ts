@@ -16,8 +16,8 @@ import { CommonModule } from '@angular/common';
   <div>
 
     <div class ="top-container">
-    <h1>Creative Projects</h1>
-    <p>Here are some of my projects that I have done throughout my educational journey. Some of the projects contain Web Development skills, Digital Marketing knowledge, and other creative endeavors.</p>
+    <img src="assets/creativeLogo.png" alt="Image of an open book with flowers and butterflies ontop" />
+    <h1>Garden of Creative Projects</h1>
     </div>
 
     <ul class="projects-list">
@@ -44,10 +44,15 @@ import { CommonModule } from '@angular/common';
       border: 2px solid #b89090;
       background-color: #d3abab;
       padding: 2rem;
-      border-radius: 60px;
+      border-radius: 30px;
       box-shadow: 4px 4px 6px rgba(245, 178, 178, 0.67);
 
-      }
+    }
+
+    .top-container img {
+    width: 200px;
+    height: 200px;
+    }
   
     .projects-list {
       display: flex;
@@ -67,7 +72,7 @@ import { CommonModule } from '@angular/common';
 
     .card {
       padding: 20px;
-      border-radius: 60px;
+      border-radius: 20px;
       border: 2px solid #b89090;
       background-color: #fff;
       box-shadow: 4px 4px 8px rgba(245, 178, 178, 0.67);
@@ -80,7 +85,8 @@ import { CommonModule } from '@angular/common';
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 4px #4d2727;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
+
     font-size: 3rem;
     }
     
@@ -91,22 +97,46 @@ import { CommonModule } from '@angular/common';
     text-shadow: 1px 1px 2px #4d3737;
     border: 2px solid #b89090;
     background-color: #c29b9bef;
-    border-radius: 60px;
+    border-radius: 20px;
     padding: 1rem;
     }
 
     h3 {
     padding-bottom: 1rem;
+    padding-top: 1rem;
     font-size: 15px;
     text-align: center;
-    color: #a188b6;
-    text-shadow: 1px 1px 1px #bb9595;
+    color: #685974;
+    text-shadow: 1px 1px 1px #382b38;
     }
 
     p {
     color: #555;
-    font-size: 0.9rem; 
-    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: auto;
+      padding: 0.6rem 1.4rem;
+      border: 2px solid #b89090;
+      background-color: #c29b9bef;
+      color: #382b38;
+      border-radius: 60px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: bold;
+      box-shadow: 2px 2px 6px rgba(245, 178, 178, 0.67);
+      transition: all 0.2s ease;
+    }
+
+    a:hover {
+      background-color: #b89090;
+      color: #fff;
+      box-shadow: 4px 4px 8px rgba(245, 178, 178, 0.67);
+      transform: translateY(-2px);
     }
     `
   ]
