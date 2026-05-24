@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
 
     <div class="basicInfo">
       <h1>Contact Information</h1>
-      <p>Email: </p>
+      <p>Email: <a href="mailto:creativecookieconnections@gmail.com">creativecookieconnections&#64;gmail.com</a></p>
       <p>Phone: (123) 456-7890</p>
       <p>Address: Centerview, MO</p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/aisha-keller-b82529166/" target="_blank" rel="noopener noreferrer">linkedin.com/in/aisha-keller-b82529166</a></p>
@@ -180,6 +180,11 @@ import { Component } from '@angular/core';
       font-weight: bold;
     }
 
+    .basicInfo p {
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
     .basicInfo ul {
     list-style-image: url('/assets/butterflyOrb.png');
     padding-left: 2rem;
@@ -190,7 +195,7 @@ import { Component } from '@angular/core';
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
-      background-color: #dfc7c7;
+      background-color: #eedcdc;
       border: 2px solid #b89090;;
       border-radius: 30px;
       box-shadow: 0 4px 8px rgba(245, 178, 178, 0.67);
@@ -204,7 +209,7 @@ import { Component } from '@angular/core';
       font-weight: 700;
       letter-spacing: -0.5px;
       margin-bottom: 20px;
-      color: #fff;
+      color: #ffffff;
       text-shadow: 2px 2px 4px #22180b;
     }
       
